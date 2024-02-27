@@ -11,3 +11,96 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem;
+  list-style: none;
+}
+input{
+  align-items:center;
+}
+
+.recipe-input h2 {
+  margin: 0;
+}
+
+.recipe-input form {
+  text-align: center;
+}
+
+.home-favourites ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.home-favourites ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+/* Style for the container div */
+#recipes{
+  /* Define CSS properties */
+
+  margin-left: auto; /* Align container to the center */
+  margin-right: auto;
+  max-width: 100%; /* Define maximum width of the container */
+  padding-top: 8px; /* Add padding on the top */
+  padding-bottom: 8px; /* Add padding on the bottom */
+  display: flex; /* Display container as flex */
+  flex-wrap: wrap; /* Allow flex items to wrap */
+  justify-content: center; /* Horizontally align flex items at the center */
+  list-style: none;
+}
+
+
+  
+
+/* Style for the container div */
+
+.recipeitems{
+  /* Define CSS properties */
+
+  display: flex; /* Display container as a flex container */
+  flex-direction: column; /* Stack flex items vertically */
+  width: 320px; /* Set the width of the container */
+  overflow: hidden; /* Hide overflow content */
+  padding: 20px; /* Add padding to the container */
+  background-color: rgba(255, 255, 255, 0.75); /* Set background color with opacity */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow to the container */
+  border:2px solid blue;
+  
+  list-style: none;
+}
+.image-container img{
+  
+  /* Define CSS properties */
+
+  height: 200px; /* Set the height of the container */
+  display: flex; /* Display container as a flex container */
+  justify-content: center; /* Horizontally center content */
+  overflow: hidden; /* Hide overflow content */
+  align-items: center; /* Vertically center content */
+  border-radius: 20px; /* Apply rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+.details-container{
+  display: flex;
+}
+.details-container img{
+  width:700px;
+  height: 500px;
+  border: 3px solid blue;
+  margin: 30px;
+}
+.details button{
+  background-color: black;
+  color:white;
+  padding:10px;
+  border-radius: 5px;
+  cursor:pointer;
+
+}
